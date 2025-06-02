@@ -12,7 +12,6 @@ import java.util.function.Consumer;
 
 public class LoginScene {
 
-    // Pass in a Consumer<String> to get email on successful login
     public Scene create(Consumer<String> onLoginSuccess) {
         VBox root = new VBox(10);
         root.setPadding(new Insets(20));

@@ -14,7 +14,6 @@ public class StockStore {
         return new ArrayList<>(stockHistory);
     }
 
-    // New method to check if a Product ID already exists in stock history
     public static boolean hasProductId(String productId) {
         return stockHistory.stream()
                 .anyMatch(item -> item.startsWith(productId + ":"));

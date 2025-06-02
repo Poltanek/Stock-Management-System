@@ -9,7 +9,6 @@ import java.util.List;
 
 public class LogsScene {
 
-    // You will probably want to fetch logs from somewhere; for now, dummy data:
     private List<String> getLogs() {
         return List.of(
                 "User 'alice' logged in at 2025-06-01 10:00",
